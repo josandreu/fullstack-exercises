@@ -1,30 +1,11 @@
-let persons = [
-  {
-    id: 1,
-    name: 'Arto Hellas',
-    number: '040-123456',
-  },
-  {
-    id: 2,
-    name: 'Ada Lovelace',
-    number: '39-44-5323523',
-  },
-  {
-    id: 3,
-    name: 'Dan Abramov',
-    number: '12-43-234345',
-  },
-  {
-    id: 4,
-    name: 'Mary Poppendieck',
-    number: '39-23-6423122',
-  },
-  {
-    id: 5,
-    name: 'Paco Perez',
-    number: '667-444-444',
-  },
-];
+require('dotenv').config();
+const express = require('express');
+const fs = require('fs'); // write to file
+const path = require('path');
+const morgan = require('morgan'); // middleware
+const mongoose = require('mongoose');
+
+const Person = require('./models/person');
 
 const generateRandomId = () => {
   return Math.floor(Math.random() * (73847294728389 - 1) + 1);
@@ -34,13 +15,7 @@ const checkName = (obj, name) => {
   return obj.some((o) => o.name === name);
 };
 
-const express = require('express');
 const app = express();
-
-const fs = require('fs'); // write to file
-const path = require('path');
-
-const morgan = require('morgan'); // middleware
 
 // create a write stream (in append mode)
 const accessLogStream = fs.createWriteStream(
@@ -64,7 +39,9 @@ app.use(
 app.use(express.static('dist'));
 
 app.get('/api/persons', (request, response) => {
-  response.send(persons);
+  Person.find({}).then((person) => {
+    response.json(person);
+  });
 });
 
 app.get('/info', (request, response) => {
@@ -124,21 +101,26 @@ app.post('/api/persons', (request, response) => {
     });
   }
 
-  if (checkName(persons, body.name)) {
-    return response.status(400).json({
-      error: 'Name already exists',
-    });
-  }
+  // if (checkName(persons, body.name)) {
+  //   return response.status(400).json({
+  //     error: 'Name already exists',
+  //   });
+  // }
 
-  const person = {
-    id: generateRandomId(),
+  const person = new Person({
+    //id: generateRandomId(),
     name: body.name,
     number: body.number,
-  };
+  });
 
-  persons = persons.concat(person);
+  //persons = persons.concat(person);
 
-  response.send(person);
+  //response.send(person);
+
+  person.save().then((result) => {
+    response.json(result);
+    mongoose.connection.close();
+  });
 });
 
 const PORT = process.env.PORT || 3001;

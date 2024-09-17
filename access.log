@@ -46,3 +46,168 @@
 ::1 - - [12/Sep/2024:12:46:57 +0000] "GET /vite.svg HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
 ::1 - - [12/Sep/2024:12:47:53 +0000] "POST /api/persons HTTP/1.1" 200 74 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"Pepe el Marismeño","number":"6664545474747"}
 ::1 - - [12/Sep/2024:12:47:56 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:10 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:10 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:10 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:10 +0000] "GET /api/persons HTTP/1.1" 200 275 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:13 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [12/Sep/2024:15:08:35 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:35 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:35 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:35 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:36 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:36 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:36 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:36 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:37 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:37 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:37 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:37 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:38 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:38 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:38 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:38 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:39 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:39 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:39 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:39 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:40 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:40 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:40 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:40 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:41 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:41 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:41 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:41 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:42 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:42 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:42 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:42 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:43 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:43 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:43 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:43 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:44 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:44 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:44 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:44 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:45 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:45 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:45 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:45 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:46 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:46 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:46 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:46 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:47 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:47 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:47 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:47 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:48 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:48 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:48 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:48 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:49 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:49 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:49 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:49 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:50 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:50 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:50 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:50 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:51 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:51 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:51 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:51 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:52 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:52 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:52 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:52 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:53 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:53 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:53 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:53 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:54 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:54 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:54 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:54 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:55 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:55 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:55 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:55 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:56 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:56 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:56 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:56 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:57 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:57 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:57 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:57 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:58 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:58 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:58 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:58 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:59 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:59 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:08:59 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:08:59 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:00 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:00 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:00 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:00 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:01 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:01 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:01 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:01 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:02 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:02 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:02 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:02 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:03 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:03 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:03 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:03 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:04 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:04 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:04 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:04 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:05 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:05 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:05 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:05 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:06 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:06 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:06 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:06 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:07 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:07 +0000] "GET /json/version HTTP/1.1" 404 151 "-" "-" -
+::1 - - [12/Sep/2024:15:09:07 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [12/Sep/2024:15:09:07 +0000] "GET /json/list HTTP/1.1" 404 148 "-" "-" -
+::1 - - [16/Sep/2024:11:33:55 +0000] "GET / HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:33:55 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 200 1211 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:33:55 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 200 179985 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:33:55 +0000] "GET /vite.svg HTTP/1.1" 200 1497 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:33:55 +0000] "GET /api/persons HTTP/1.1" 200 400 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:34:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:34:04 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:34:04 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:34:04 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:34:12 +0000] "GET /api/persons HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:10 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:10 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:10 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:10 +0000] "GET /vite.svg HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:10 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:37:27 +0000] "POST /api/persons HTTP/1.1" 500 1370 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"Arturo Valls","number":"656-444-322"}
+::1 - - [16/Sep/2024:11:38:28 +0000] "POST /api/persons HTTP/1.1" 200 78 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"Arturo Valls","number":"656-444-322"}
+::1 - - [16/Sep/2024:11:39:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:39:13 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:39:13 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:39:13 +0000] "GET /vite.svg HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [16/Sep/2024:11:39:13 +0000] "GET /api/persons HTTP/1.1" 200 479 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET / HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET /assets/index-C0KoBfDR.js HTTP/1.1" 200 179985 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET /vite.svg HTTP/1.1" 200 1497 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:09:32:06 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
