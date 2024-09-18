@@ -291,3 +291,45 @@
 ::1 - - [17/Sep/2024:11:25:11 +0000] "GET /info HTTP/1.1" 200 73 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
 ::1 - - [17/Sep/2024:11:26:37 +0000] "GET /info HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
 ::1 - - [17/Sep/2024:11:26:50 +0000] "GET /info HTTP/1.1" 200 134 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET / HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 200 1211 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET /assets/index-L4J5WcDr.js HTTP/1.1" 200 180045 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET /assets/index-L4J5WcDr.js HTTP/1.1" 200 180045 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:37 +0000] "GET /vite.svg HTTP/1.1" 200 1497 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:45:43 +0000] "POST /api/persons HTTP/1.1" 400 29 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":""}
+::1 - - [17/Sep/2024:12:45:50 +0000] "POST /api/persons HTTP/1.1" 400 115 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":"323"}
+::1 - - [17/Sep/2024:12:46:09 +0000] "POST /api/persons HTTP/1.1" 400 115 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":"323"}
+::1 - - [17/Sep/2024:12:46:11 +0000] "POST /api/persons HTTP/1.1" 400 115 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":"323"}
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET / HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 200 1211 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET /assets/index-BK0NuFeY.js HTTP/1.1" 200 180038 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET /assets/index-BK0NuFeY.js HTTP/1.1" 200 180038 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET /vite.svg HTTP/1.1" 200 1497 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:12 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [17/Sep/2024:12:46:17 +0000] "POST /api/persons HTTP/1.1" 400 116 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":"2323"}
+::1 - - [17/Sep/2024:12:46:20 +0000] "POST /api/persons HTTP/1.1" 400 116 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pac","number":"2323"}
+::1 - - [17/Sep/2024:12:46:40 +0000] "POST /api/persons HTTP/1.1" 400 117 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"pacewe","number":"23233"}
+::1 - - [17/Sep/2024:13:08:03 +0000] "POST /api/persons HTTP/1.1" 200 - "-" "PostmanRuntime/7.42.0" {"name":"Lisa Simpson","number":"0055-54645532635"}
+::1 - - [17/Sep/2024:13:08:14 +0000] "GET /api/persons HTTP/1.1" 200 727 "-" "PostmanRuntime/7.42.0" -
+::1 - - [17/Sep/2024:13:09:05 +0000] "POST /api/persons HTTP/1.1" 400 118 "-" "PostmanRuntime/7.42.0" {"name":"Exa","number":"0055-5"}
+::1 - - [17/Sep/2024:13:09:43 +0000] "POST /api/persons HTTP/1.1" 200 74 "-" "PostmanRuntime/7.42.0" {"name":"Example","number":"0055-5333333"}
+::1 - - [17/Sep/2024:13:09:50 +0000] "GET /api/persons HTTP/1.1" 200 802 "-" "PostmanRuntime/7.42.0" -
+::1 - - [17/Sep/2024:13:09:57 +0000] "DELETE /api/persons/66e97f97eeae8ff47cce6114 HTTP/1.1" 204 74 "-" "PostmanRuntime/7.42.0" -
+::1 - - [17/Sep/2024:13:10:46 +0000] "POST /api/persons HTTP/1.1" 400 29 "-" "PostmanRuntime/7.42.0" {"name":"Example"}
+::1 - - [17/Sep/2024:13:11:15 +0000] "POST /api/persons HTTP/1.1" 400 110 "-" "PostmanRuntime/7.42.0" {"name":"Ex","number":"0055-5333333"}
+::1 - - [17/Sep/2024:13:14:48 +0000] "POST /api/persons HTTP/1.1" 200 71 "-" "PostmanRuntime/7.42.0" {"name":"Exss","number":"0055-5333333"}
+::1 - - [17/Sep/2024:13:14:58 +0000] "DELETE /api/persons/66e980c834ae0ae917c651ab HTTP/1.1" 204 71 "-" "PostmanRuntime/7.42.0" -
+::1 - - [18/Sep/2024:10:02:02 +0000] "GET /api/persons HTTP/1.1" 200 727 "-" "PostmanRuntime/7.42.0" -
+::1 - - [18/Sep/2024:10:02:17 +0000] "GET /api/persons HTTP/1.1" 200 727 "-" "PostmanRuntime/7.42.0" -
+::1 - - [18/Sep/2024:10:02:25 +0000] "POST /api/persons HTTP/1.1" 200 71 "-" "PostmanRuntime/7.42.0" {"name":"Exss","number":"0055-5333333"}
+::1 - - [18/Sep/2024:10:02:29 +0000] "GET /api/persons HTTP/1.1" 200 799 "-" "PostmanRuntime/7.42.0" -
+::1 - - [18/Sep/2024:10:02:36 +0000] "DELETE /api/persons/66eaa53134ae0ae917c651b1 HTTP/1.1" 204 71 "-" "PostmanRuntime/7.42.0" -
+::1 - - [18/Sep/2024:10:04:46 +0000] "POST /api/persons HTTP/1.1" 400 137 "-" "PostmanRuntime/7.42.0" {"name":"Exss","number":"0055-5333333"}
+::1 - - [18/Sep/2024:10:06:50 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [18/Sep/2024:10:06:50 +0000] "GET /assets/index-BK0NuFeY.js HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [18/Sep/2024:10:06:50 +0000] "GET /assets/index-D6MqLikZ.css HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [18/Sep/2024:10:06:50 +0000] "GET /vite.svg HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [18/Sep/2024:10:06:50 +0000] "GET /api/persons HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -
+::1 - - [18/Sep/2024:10:06:59 +0000] "POST /api/persons HTTP/1.1" 400 118 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"ererr","number":"555555"}
+::1 - - [18/Sep/2024:10:07:05 +0000] "POST /api/persons HTTP/1.1" 400 135 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {"name":"ererr","number":"5555555555"}
